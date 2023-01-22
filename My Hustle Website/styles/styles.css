@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+}
+
+/* Title */
+.title h1 {
+  /* Center text, make big, italic, and roomy for background color */
+  text-align: center;
+  font-style: italic;
+  font-size: 3em;
+  background-color: antiquewhite;
+}
+
+/* Header */
+.header {
+  /* Make buttons spread apart, style them, round corners, hover animation, bigger, background-color */
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px 0;
+  background-color: burlywood;
+}
+
+.header button {
+  /* Bigger buttons & font, round corners, hover pointer */
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 20px;
+  border: none;
+}
+
+.header button:hover {
+  cursor: pointer;
+  background-color: antiquewhite;
+}
+
+/* Main */
+.main--grid--container {
+  /* Display prices, buy button, read details, guarantee or money back, */
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid--pricing--box {
+  border: 1px solid black;
+  margin: 10px auto;
+  padding: 10px;
+  width: 85%;
+}
